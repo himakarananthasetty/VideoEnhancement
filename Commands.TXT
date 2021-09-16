@@ -1,0 +1,12 @@
+1)conda create -n object
+2)conda activate object
+3)pip install TensorFlow==1.15 lxml pillow matplotlib jupyter contextlib2 cython tf_slim
+
+LINK:https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0
+
+
+
+
+4)python generate_tfrecord.py --csv_input-data/test_labels.csv --output_path=data/test.record --image_dir-images/
+
+
